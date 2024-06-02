@@ -53,10 +53,12 @@ main {
     margin-bottom: 3.3rem;
  }
 
+ h1, h2 {
+   font-family: 'young-serif', sans-serif;
+ }
+
  h1 {
     margin: 3.25rem 0px 1.7rem 0px;
-    font-family: 'young-serif', sans-serif;
-    font-weight: 400;
     font-size: 4rem;
  }
 
@@ -76,8 +78,11 @@ main {
    border-radius: 20px;
 }
 
-.preparation-time h3 {
+.preparation-time h3, li span, li::marker {
    font-weight: 600;
+}
+
+.preparation-time h3 {
    font-size: 2rem;
    margin-bottom: 0.8rem;
    color: var(--Dark-Raspberry);
@@ -87,13 +92,8 @@ li {
        padding-left: 1.7rem;
    }
 
-li span {
-   font-weight: 600;
-}
-
 li::marker {
    color: var(--Nutmeg);
-   font-weight: 600;
  }
 
 .preparation-time li::marker {
@@ -111,7 +111,6 @@ li::marker {
 }
 
 h2 {
-   font-family: 'young-serif', sans-serif;
    font-size: 2.8rem;
    margin-bottom: 1.4rem;
    color: var(--Nutmeg);
