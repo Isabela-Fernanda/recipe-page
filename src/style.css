@@ -32,9 +32,9 @@ main {
     align-items: center;
     background-color:  var(--White);
     border-radius: 25px;
-    width: 740px;
-    padding: 40px 42px;
-    margin: 100px 20px;
+    width: 74rem;
+    padding: 4rem 4.2rem;
+    margin: 10rem 2rem;
  }
 
  div{
@@ -44,22 +44,22 @@ main {
 
 
  li {
-       padding-left: 17px;
+       padding-left: 1.7rem;
    }
 
  .recipe{
     display: flex;
     flex-direction: column;
-    margin-bottom: 33px;
+    margin-bottom: 3.3rem;
  }
 
  img {
-    width: 655px;
+    width: 65.5rem;
     border-radius: 10px;
  }
 
  h1 {
-    margin: 32.5px 0px 17px 0px;
+    margin: 3.25rem 0px 1.7rem 0px;
     font-family: 'young-serif', sans-serif;
     font-weight: 400;
     font-size: 4rem;
@@ -70,21 +70,21 @@ main {
  }
 
  .recipe p {
-   line-height: 23px;
+   line-height: 2.3rem;
  }
 
 .preparation-time {
    max-width: 100%;
    background-color: var(--Rose-White);
    max-width: 100%;
-   padding: 25px 28px;
+   padding: 2.5rem 2.8rem;
    border-radius: 20px;
 }
 
 .preparation-time h3 {
    font-weight: 600;
    font-size: 2rem;
-   margin-bottom: 8px;
+   margin-bottom: 0.8rem;
    color: var(--Dark-Raspberry);
 }
 
@@ -95,8 +95,8 @@ main {
 
 .preparation-time ul, .ingredients ul {
    list-style-type: disc;
-   margin-left: 23px;
-   line-height: 32px;
+   margin-left: 2.3rem;
+   line-height: 3.2rem;
 }
 
 li::marker {
@@ -109,45 +109,45 @@ li span {
 }
 
 .ingredients{
-   margin-top: 25px;
+   margin-top: 2.5rem;
 }
 
 h2 {
    font-family: 'young-serif', sans-serif;
    font-size: 2.8rem;
-   margin-bottom: 14px;
+   margin-bottom: 1.4rem;
    color: var(--Nutmeg);
 }
 
 hr {
-   margin: 27px 0px;
+   margin: 2.7rem 0px;
    width: 100%;
    border-bottom: 1px solid var(--Light-Grey);
 }
 
 .instructions ol {
    list-style: decimal;
-   margin-top: 19px;
-   margin-left: 24px;
-   line-height: 23px;
+   margin-top: 1.9rem;
+   margin-left: 2.4rem;
+   line-height: 2.3rem;
    list-style-type: decimal;
 }
 
 .instructions ol li {
-   margin-bottom: 10px;
+   margin-bottom: 1rem;
 }
 
 .instructions ol li:last-child{
-   margin-bottom: 2px;
+   margin-bottom: 0.2rem;
 }
 
 .nutrition p{
-   margin-top: 20px;
+   margin-top: 2rem;
 }
 
 .nutrition table{
    width: 100%;
-   margin-top: 13px;
+   margin-top: 1.3rem;
 }
 
 .nutrition table tr {
@@ -155,7 +155,7 @@ hr {
    flex-wrap: wrap;
    width: 100%;
    border-bottom: 1px solid var(--Light-Grey);
-   padding: 13.5px 0px;
+   padding: 1.35rem 0px;
 }
 
 .nutrition table tr:last-child {
@@ -165,12 +165,12 @@ hr {
 
 .nutrition table tr th{
   text-align: left;
-  padding-left: 30px;
+  padding-left: 3rem;
   width: 50%;
 }
 
 .nutrition table tr td{
    font-weight: 700;
    color: var(--Nutmeg);
-   padding-left: 8px;
+   padding-left: 0.8rem;
 }
