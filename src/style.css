@@ -37,25 +37,20 @@ main {
     margin: 10rem 2rem;
  }
 
+ img {
+    width: 65.5rem;
+    border-radius: 10px;
+ }
+
  div{
    width: 100%;
    height: 100%;
  }
 
-
- li {
-       padding-left: 1.7rem;
-   }
-
  .recipe{
     display: flex;
     flex-direction: column;
     margin-bottom: 3.3rem;
- }
-
- img {
-    width: 65.5rem;
-    border-radius: 10px;
  }
 
  h1 {
@@ -65,11 +60,11 @@ main {
     font-size: 4rem;
  }
 
- h1, .recipe p, .preparation-time li{
+  h1, .recipe p, .preparation-time li{
    color: var(--Dark-Charcoal);
  }
 
- .recipe p {
+  .recipe p {
    line-height: 2.3rem;
  }
 
@@ -86,17 +81,14 @@ main {
    font-size: 2rem;
    margin-bottom: 0.8rem;
    color: var(--Dark-Raspberry);
-}
+} 
 
-.preparation-time li::marker {
-   color: var(--Dark-Raspberry);
+li {
+       padding-left: 1.7rem;
+   }
+
+li span {
    font-weight: 600;
- }
-
-.preparation-time ul, .ingredients ul {
-   list-style-type: disc;
-   margin-left: 2.3rem;
-   line-height: 3.2rem;
 }
 
 li::marker {
@@ -104,8 +96,14 @@ li::marker {
    font-weight: 600;
  }
 
-li span {
-   font-weight: 600;
+.preparation-time li::marker {
+   color: var(--Dark-Raspberry);
+ }
+
+.preparation-time ul, .ingredients ul {
+   list-style-type: disc;
+   margin-left: 2.3rem;
+   line-height: 3.2rem;
 }
 
 .ingredients{
