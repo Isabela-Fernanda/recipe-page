@@ -1,4 +1,4 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Recipe page solution
 
 Esta é uma solução para o [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação através da construção de projetos realistas. 
 
